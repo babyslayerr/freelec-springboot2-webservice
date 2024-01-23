@@ -16,3 +16,7 @@ notifications:
   email:
     recipients:
       - gksqlcxkdns1@naver.com
+
+# ./gradlew 파일의 권한문제 해결을 위한 방안
+before_install:
+  - chmod +x gradlew
